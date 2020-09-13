@@ -1,0 +1,32 @@
+/*
+Theme Name: Bulma WP
+Theme URI: 
+Author: dsebao
+Author URI: 
+Domain: vasi
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: bulma
+*/
+
+@import "base/_all";
+
+
+
+// Import only what you need from Bulma
+@import "../node_modules/bulma/sass/utilities/_all";
+@import "../node_modules/bulma/sass/base/_all";
+
+//Elements
+@import "../node_modules/bulma/sass/elements/_all";
+
+//forms
+@import "../node_modules/bulma/sass/form/_all";
+
+//Components
+@import "../node_modules/bulma/sass/components/_all";
+
+///Layouts
+@import "../node_modules/bulma/sass/layout/_all";
